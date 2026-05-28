@@ -83,15 +83,26 @@ justify-content: center;
 
 }
 
+بله، آن کد قبلی را حذف کن و فقط همین کد جدید را بگذار:
+
+```css id="v9x3kd"
 @media screen and (max-width: 600px) {
 
-    h1 {
-        font-size: 28px;
+    .links {
+        flex-direction: column;
+        flex-wrap: wrap;
     }
 
-    .links h2 {
+    a {
+        width: 90%;
+    }
+
+    h2 {
+        width: 100%;
+        height: auto;
         font-size: 18px;
-        padding: 12px;
+        justify-content: center;
     }
 
 }
+```
