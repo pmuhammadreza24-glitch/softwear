@@ -2,6 +2,9 @@
 
     display: flex;
     gap: 15px;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
 }
 
 a {
@@ -20,7 +23,7 @@ h1 {
 .link-adeleh {
     display: flex;
     gap: 15px;
-
+justify-content: center;
 
 }
 
@@ -41,12 +44,13 @@ h2 {
 .mozie-ahadith {
     display: flex;
     gap: 10px;
-
+justify-content: center;
 }
 
 .khotbat {
     display: flex;
     gap: 10px;
+    justify-content: center;
 }
 
 .khotbat-p {
@@ -71,10 +75,10 @@ h2 {
 
 }
 
-.libe-container{
-display: flex;
-gap: 15px;
-align-items: center;
-
+.libe-container {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+ justify-content: center;
 
 }
