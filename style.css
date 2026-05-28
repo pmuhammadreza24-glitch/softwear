@@ -82,3 +82,16 @@ justify-content: center;
  justify-content: center;
 
 }
+
+@media screen and (max-width: 600px) {
+
+    h1 {
+        font-size: 28px;
+    }
+
+    .links h2 {
+        font-size: 18px;
+        padding: 12px;
+    }
+
+}
